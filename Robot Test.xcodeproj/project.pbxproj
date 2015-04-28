@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E855FAC51AF03749009E8964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAC41AF03749009E8964 /* AppDelegate.swift */; };
+		E855FAC71AF03749009E8964 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E855FAC61AF03749009E8964 /* GameScene.sks */; };
+		E855FAC91AF03749009E8964 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAC81AF03749009E8964 /* GameScene.swift */; };
+		E855FACB1AF03749009E8964 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FACA1AF03749009E8964 /* GameViewController.swift */; };
+		E855FACE1AF03749009E8964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E855FACC1AF03749009E8964 /* Main.storyboard */; };
+		E855FAD01AF03749009E8964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855FACF1AF03749009E8964 /* Images.xcassets */; };
+		E855FAD31AF03749009E8964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E855FAD11AF03749009E8964 /* LaunchScreen.xib */; };
+		E855FADF1AF03749009E8964 /* Robot_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FADE1AF03749009E8964 /* Robot_TestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E855FAD91AF03749009E8964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E855FAB71AF03749009E8964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E855FABE1AF03749009E8964;
+			remoteInfo = "Robot Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E855FABF1AF03749009E8964 /* Robot Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E855FAC31AF03749009E8964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E855FAC41AF03749009E8964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E855FAC61AF03749009E8964 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E855FAC81AF03749009E8964 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E855FACA1AF03749009E8964 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E855FACD1AF03749009E8964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E855FACF1AF03749009E8964 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E855FAD21AF03749009E8964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E855FAD81AF03749009E8964 /* Robot TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E855FADD1AF03749009E8964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E855FADE1AF03749009E8964 /* Robot_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot_TestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E855FABC1AF03749009E8964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E855FAD51AF03749009E8964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E855FAB61AF03749009E8964 = {
+			isa = PBXGroup;
+			children = (
+				E855FAC11AF03749009E8964 /* Robot Test */,
+				E855FADB1AF03749009E8964 /* Robot TestTests */,
+				E855FAC01AF03749009E8964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E855FAC01AF03749009E8964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E855FABF1AF03749009E8964 /* Robot Test.app */,
+				E855FAD81AF03749009E8964 /* Robot TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E855FAC11AF03749009E8964 /* Robot Test */ = {
+			isa = PBXGroup;
+			children = (
+				E855FAC41AF03749009E8964 /* AppDelegate.swift */,
+				E855FAC61AF03749009E8964 /* GameScene.sks */,
+				E855FAC81AF03749009E8964 /* GameScene.swift */,
+				E855FACA1AF03749009E8964 /* GameViewController.swift */,
+				E855FACC1AF03749009E8964 /* Main.storyboard */,
+				E855FACF1AF03749009E8964 /* Images.xcassets */,
+				E855FAD11AF03749009E8964 /* LaunchScreen.xib */,
+				E855FAC21AF03749009E8964 /* Supporting Files */,
+			);
+			path = "Robot Test";
+			sourceTree = "<group>";
+		};
+		E855FAC21AF03749009E8964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E855FAC31AF03749009E8964 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E855FADB1AF03749009E8964 /* Robot TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E855FADE1AF03749009E8964 /* Robot_TestTests.swift */,
+				E855FADC1AF03749009E8964 /* Supporting Files */,
+			);
+			path = "Robot TestTests";
+			sourceTree = "<group>";
+		};
+		E855FADC1AF03749009E8964 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E855FADD1AF03749009E8964 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E855FABE1AF03749009E8964 /* Robot Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E855FAE21AF03749009E8964 /* Build configuration list for PBXNativeTarget "Robot Test" */;
+			buildPhases = (
+				E855FABB1AF03749009E8964 /* Sources */,
+				E855FABC1AF03749009E8964 /* Frameworks */,
+				E855FABD1AF03749009E8964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robot Test";
+			productName = "Robot Test";
+			productReference = E855FABF1AF03749009E8964 /* Robot Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E855FAD71AF03749009E8964 /* Robot TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E855FAE51AF03749009E8964 /* Build configuration list for PBXNativeTarget "Robot TestTests" */;
+			buildPhases = (
+				E855FAD41AF03749009E8964 /* Sources */,
+				E855FAD51AF03749009E8964 /* Frameworks */,
+				E855FAD61AF03749009E8964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E855FADA1AF03749009E8964 /* PBXTargetDependency */,
+			);
+			name = "Robot TestTests";
+			productName = "Robot TestTests";
+			productReference = E855FAD81AF03749009E8964 /* Robot TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E855FAB71AF03749009E8964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					E855FABE1AF03749009E8964 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E855FAD71AF03749009E8964 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E855FABE1AF03749009E8964;
+					};
+				};
+			};
+			buildConfigurationList = E855FABA1AF03749009E8964 /* Build configuration list for PBXProject "Robot Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E855FAB61AF03749009E8964;
+			productRefGroup = E855FAC01AF03749009E8964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E855FABE1AF03749009E8964 /* Robot Test */,
+				E855FAD71AF03749009E8964 /* Robot TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E855FABD1AF03749009E8964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E855FAD31AF03749009E8964 /* LaunchScreen.xib in Resources */,
+				E855FAD01AF03749009E8964 /* Images.xcassets in Resources */,
+				E855FAC71AF03749009E8964 /* GameScene.sks in Resources */,
+				E855FACE1AF03749009E8964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E855FAD61AF03749009E8964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E855FABB1AF03749009E8964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E855FAC91AF03749009E8964 /* GameScene.swift in Sources */,
+				E855FACB1AF03749009E8964 /* GameViewController.swift in Sources */,
+				E855FAC51AF03749009E8964 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E855FAD41AF03749009E8964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E855FADF1AF03749009E8964 /* Robot_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E855FADA1AF03749009E8964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E855FABE1AF03749009E8964 /* Robot Test */;
+			targetProxy = E855FAD91AF03749009E8964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E855FACC1AF03749009E8964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E855FACD1AF03749009E8964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E855FAD11AF03749009E8964 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E855FAD21AF03749009E8964 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E855FAE01AF03749009E8964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E855FAE11AF03749009E8964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E855FAE31AF03749009E8964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E855FAE41AF03749009E8964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E855FAE61AF03749009E8964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Robot TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Test.app/Robot Test";
+			};
+			name = Debug;
+		};
+		E855FAE71AF03749009E8964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Robot TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Test.app/Robot Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E855FABA1AF03749009E8964 /* Build configuration list for PBXProject "Robot Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E855FAE01AF03749009E8964 /* Debug */,
+				E855FAE11AF03749009E8964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E855FAE21AF03749009E8964 /* Build configuration list for PBXNativeTarget "Robot Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E855FAE31AF03749009E8964 /* Debug */,
+				E855FAE41AF03749009E8964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E855FAE51AF03749009E8964 /* Build configuration list for PBXNativeTarget "Robot TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E855FAE61AF03749009E8964 /* Debug */,
+				E855FAE71AF03749009E8964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E855FAB71AF03749009E8964 /* Project object */;
+}
