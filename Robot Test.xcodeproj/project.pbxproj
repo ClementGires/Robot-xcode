@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E805BEF41B13C7970061FED0 /* ladderDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E805BEF11B13C7970061FED0 /* ladderDown@2x.png */; };
+		E805BEF51B13C7970061FED0 /* ladderUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E805BEF21B13C7970061FED0 /* ladderUp@2x.png */; };
+		E805BEF61B13C7970061FED0 /* turtle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E805BEF31B13C7970061FED0 /* turtle@2x.png */; };
+		E8107AF71AFE808C002146FB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E8107AF61AFE808C002146FB /* GameScene.sks */; };
+		E8107AF91AFE80CB002146FB /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = E8107AF81AFE80CB002146FB /* projectile.png */; };
+		E8107AFB1AFE81D0002146FB /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8107AFA1AFE81D0002146FB /* projectile@2x.png */; };
+		E852A01F1B11733A00A681E0 /* uturn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E852A01E1B11733A00A681E0 /* uturn@2x.png */; };
+		E852A0201B11733A00A681E0 /* uturn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E852A01E1B11733A00A681E0 /* uturn@2x.png */; };
 		E855FAC51AF03749009E8964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAC41AF03749009E8964 /* AppDelegate.swift */; };
-		E855FAC71AF03749009E8964 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E855FAC61AF03749009E8964 /* GameScene.sks */; };
 		E855FAC91AF03749009E8964 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAC81AF03749009E8964 /* GameScene.swift */; };
 		E855FACB1AF03749009E8964 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FACA1AF03749009E8964 /* GameViewController.swift */; };
 		E855FACE1AF03749009E8964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E855FACC1AF03749009E8964 /* Main.storyboard */; };
 		E855FAD01AF03749009E8964 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855FACF1AF03749009E8964 /* Images.xcassets */; };
 		E855FAD31AF03749009E8964 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E855FAD11AF03749009E8964 /* LaunchScreen.xib */; };
 		E855FADF1AF03749009E8964 /* Robot_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FADE1AF03749009E8964 /* Robot_TestTests.swift */; };
+		E855FAE91AF039B0009E8964 /* SpriteKitSimpleGameResources in Resources */ = {isa = PBXBuildFile; fileRef = E855FAE81AF039B0009E8964 /* SpriteKitSimpleGameResources */; };
+		E855FAEF1AF05A00009E8964 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAEE1AF05A00009E8964 /* Level.swift */; };
+		E855FAF11AF05CE5009E8964 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855FAF01AF05CE5009E8964 /* Tile.swift */; };
+		E860A5351AF18E6F00671B74 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860A5341AF18E6F00671B74 /* Robot.swift */; };
+		E89E93481B042A1A00B37C9F /* firstPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93471B042A1A00B37C9F /* firstPlayer.png */; };
+		E89E934A1B042A8200B37C9F /* firstPlayer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93491B042A8200B37C9F /* firstPlayer@2x.png */; };
+		E89E934D1B042C7300B37C9F /* bomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E934B1B042C7300B37C9F /* bomb@2x.png */; };
+		E89E934E1B042C7300B37C9F /* ennemy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E934C1B042C7300B37C9F /* ennemy@2x.png */; };
+		E89E93501B042DBE00B37C9F /* flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E934F1B042DBE00B37C9F /* flag@2x.png */; };
+		E89E93571B04302700B37C9F /* verticalWall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93551B04302700B37C9F /* verticalWall@2x.png */; };
+		E89E93581B04302700B37C9F /* horizontalWall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93561B04302700B37C9F /* horizontalWall@2x.png */; };
+		E89E935A1B043DE500B37C9F /* hole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93591B043DE500B37C9F /* hole@2x.png */; };
+		E89E935C1B043E7600B37C9F /* ladder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E935B1B043E7600B37C9F /* ladder@2x.png */; };
+		E89E93621B06C9C900B37C9F /* cape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93611B06C9C900B37C9F /* cape@2x.png */; };
+		E89E93631B06C9C900B37C9F /* cape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93611B06C9C900B37C9F /* cape@2x.png */; };
+		E89E93651B06D74300B37C9F /* pacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93641B06D74300B37C9F /* pacman@2x.png */; };
+		E89E93661B06D74300B37C9F /* pacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93641B06D74300B37C9F /* pacman@2x.png */; };
+		E89E93681B06D74E00B37C9F /* ennemyPacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93671B06D74E00B37C9F /* ennemyPacman@2x.png */; };
+		E89E93691B06D74E00B37C9F /* ennemyPacman@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E89E93671B06D74E00B37C9F /* ennemyPacman@2x.png */; };
+		E8F0A8D51AF5AE8100B668B7 /* Savings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F0A8D41AF5AE8100B668B7 /* Savings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E805BEF11B13C7970061FED0 /* ladderDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ladderDown@2x.png"; sourceTree = "<group>"; };
+		E805BEF21B13C7970061FED0 /* ladderUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ladderUp@2x.png"; sourceTree = "<group>"; };
+		E805BEF31B13C7970061FED0 /* turtle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turtle@2x.png"; sourceTree = "<group>"; };
+		E8107AF61AFE808C002146FB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E8107AF81AFE80CB002146FB /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		E8107AFA1AFE81D0002146FB /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		E852A01E1B11733A00A681E0 /* uturn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uturn@2x.png"; sourceTree = "<group>"; };
 		E855FABF1AF03749009E8964 /* Robot Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E855FAC31AF03749009E8964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E855FAC41AF03749009E8964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E855FAC61AF03749009E8964 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E855FAC81AF03749009E8964 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E855FACA1AF03749009E8964 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E855FACD1AF03749009E8964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +73,23 @@
 		E855FAD81AF03749009E8964 /* Robot TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E855FADD1AF03749009E8964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E855FADE1AF03749009E8964 /* Robot_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot_TestTests.swift; sourceTree = "<group>"; };
+		E855FAE81AF039B0009E8964 /* SpriteKitSimpleGameResources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SpriteKitSimpleGameResources; path = ../SpriteKitSimpleGameResources; sourceTree = "<group>"; };
+		E855FAEE1AF05A00009E8964 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		E855FAF01AF05CE5009E8964 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		E860A5341AF18E6F00671B74 /* Robot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		E89E93471B042A1A00B37C9F /* firstPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstPlayer.png; sourceTree = "<group>"; };
+		E89E93491B042A8200B37C9F /* firstPlayer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "firstPlayer@2x.png"; sourceTree = "<group>"; };
+		E89E934B1B042C7300B37C9F /* bomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bomb@2x.png"; sourceTree = "<group>"; };
+		E89E934C1B042C7300B37C9F /* ennemy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ennemy@2x.png"; sourceTree = "<group>"; };
+		E89E934F1B042DBE00B37C9F /* flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flag@2x.png"; sourceTree = "<group>"; };
+		E89E93551B04302700B37C9F /* verticalWall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "verticalWall@2x.png"; sourceTree = "<group>"; };
+		E89E93561B04302700B37C9F /* horizontalWall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "horizontalWall@2x.png"; sourceTree = "<group>"; };
+		E89E93591B043DE500B37C9F /* hole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hole@2x.png"; sourceTree = "<group>"; };
+		E89E935B1B043E7600B37C9F /* ladder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ladder@2x.png"; sourceTree = "<group>"; };
+		E89E93611B06C9C900B37C9F /* cape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cape@2x.png"; sourceTree = "<group>"; };
+		E89E93641B06D74300B37C9F /* pacman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pacman@2x.png"; sourceTree = "<group>"; };
+		E89E93671B06D74E00B37C9F /* ennemyPacman@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ennemyPacman@2x.png"; sourceTree = "<group>"; };
+		E8F0A8D41AF5AE8100B668B7 /* Savings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Savings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +131,32 @@
 		E855FAC11AF03749009E8964 /* Robot Test */ = {
 			isa = PBXGroup;
 			children = (
+				E805BEF11B13C7970061FED0 /* ladderDown@2x.png */,
+				E805BEF21B13C7970061FED0 /* ladderUp@2x.png */,
+				E805BEF31B13C7970061FED0 /* turtle@2x.png */,
+				E89E93671B06D74E00B37C9F /* ennemyPacman@2x.png */,
+				E89E93641B06D74300B37C9F /* pacman@2x.png */,
+				E852A01E1B11733A00A681E0 /* uturn@2x.png */,
+				E89E93611B06C9C900B37C9F /* cape@2x.png */,
+				E89E935B1B043E7600B37C9F /* ladder@2x.png */,
+				E89E93591B043DE500B37C9F /* hole@2x.png */,
+				E89E93551B04302700B37C9F /* verticalWall@2x.png */,
+				E89E93561B04302700B37C9F /* horizontalWall@2x.png */,
+				E89E934F1B042DBE00B37C9F /* flag@2x.png */,
+				E89E934B1B042C7300B37C9F /* bomb@2x.png */,
+				E89E934C1B042C7300B37C9F /* ennemy@2x.png */,
+				E89E93491B042A8200B37C9F /* firstPlayer@2x.png */,
+				E89E93471B042A1A00B37C9F /* firstPlayer.png */,
+				E855FAE81AF039B0009E8964 /* SpriteKitSimpleGameResources */,
 				E855FAC41AF03749009E8964 /* AppDelegate.swift */,
-				E855FAC61AF03749009E8964 /* GameScene.sks */,
+				E8107AF81AFE80CB002146FB /* projectile.png */,
+				E8107AFA1AFE81D0002146FB /* projectile@2x.png */,
 				E855FAC81AF03749009E8964 /* GameScene.swift */,
+				E8107AF61AFE808C002146FB /* GameScene.sks */,
+				E855FAEE1AF05A00009E8964 /* Level.swift */,
+				E855FAF01AF05CE5009E8964 /* Tile.swift */,
+				E8F0A8D41AF5AE8100B668B7 /* Savings.swift */,
+				E860A5341AF18E6F00671B74 /* Robot.swift */,
 				E855FACA1AF03749009E8964 /* GameViewController.swift */,
 				E855FACC1AF03749009E8964 /* Main.storyboard */,
 				E855FACF1AF03749009E8964 /* Images.xcassets */,
@@ -167,6 +240,7 @@
 				TargetAttributes = {
 					E855FABE1AF03749009E8964 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = U4WHJTC76X;
 					};
 					E855FAD71AF03749009E8964 = {
 						CreatedOnToolsVersion = 6.3;
@@ -198,10 +272,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8107AFB1AFE81D0002146FB /* projectile@2x.png in Resources */,
 				E855FAD31AF03749009E8964 /* LaunchScreen.xib in Resources */,
+				E89E93501B042DBE00B37C9F /* flag@2x.png in Resources */,
+				E89E93571B04302700B37C9F /* verticalWall@2x.png in Resources */,
+				E805BEF61B13C7970061FED0 /* turtle@2x.png in Resources */,
+				E89E93581B04302700B37C9F /* horizontalWall@2x.png in Resources */,
+				E8107AF71AFE808C002146FB /* GameScene.sks in Resources */,
+				E89E935C1B043E7600B37C9F /* ladder@2x.png in Resources */,
+				E89E93681B06D74E00B37C9F /* ennemyPacman@2x.png in Resources */,
 				E855FAD01AF03749009E8964 /* Images.xcassets in Resources */,
-				E855FAC71AF03749009E8964 /* GameScene.sks in Resources */,
+				E89E93651B06D74300B37C9F /* pacman@2x.png in Resources */,
+				E855FAE91AF039B0009E8964 /* SpriteKitSimpleGameResources in Resources */,
+				E89E935A1B043DE500B37C9F /* hole@2x.png in Resources */,
+				E89E93621B06C9C900B37C9F /* cape@2x.png in Resources */,
+				E8107AF91AFE80CB002146FB /* projectile.png in Resources */,
+				E89E934D1B042C7300B37C9F /* bomb@2x.png in Resources */,
 				E855FACE1AF03749009E8964 /* Main.storyboard in Resources */,
+				E89E934A1B042A8200B37C9F /* firstPlayer@2x.png in Resources */,
+				E89E934E1B042C7300B37C9F /* ennemy@2x.png in Resources */,
+				E89E93481B042A1A00B37C9F /* firstPlayer.png in Resources */,
+				E852A01F1B11733A00A681E0 /* uturn@2x.png in Resources */,
+				E805BEF41B13C7970061FED0 /* ladderDown@2x.png in Resources */,
+				E805BEF51B13C7970061FED0 /* ladderUp@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89E93691B06D74E00B37C9F /* ennemyPacman@2x.png in Resources */,
+				E89E93661B06D74300B37C9F /* pacman@2x.png in Resources */,
+				E89E93631B06C9C900B37C9F /* cape@2x.png in Resources */,
+				E852A0201B11733A00A681E0 /* uturn@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E855FAC91AF03749009E8964 /* GameScene.swift in Sources */,
+				E8F0A8D51AF5AE8100B668B7 /* Savings.swift in Sources */,
 				E855FACB1AF03749009E8964 /* GameViewController.swift in Sources */,
+				E855FAF11AF05CE5009E8964 /* Tile.swift in Sources */,
+				E855FAEF1AF05A00009E8964 /* Level.swift in Sources */,
+				E860A5351AF18E6F00671B74 /* Robot.swift in Sources */,
 				E855FAC51AF03749009E8964 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,9 +451,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Robot Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,9 +465,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Robot Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -419,6 +528,7 @@
 				E855FAE41AF03749009E8964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E855FAE51AF03749009E8964 /* Build configuration list for PBXNativeTarget "Robot TestTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +537,7 @@
 				E855FAE71AF03749009E8964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
